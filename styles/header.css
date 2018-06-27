@@ -35,11 +35,27 @@ body{
 }
 
 #lower{
-   position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
     color: white;
     padding-left: 20px;
     display: inherit;
+}
+#main{
+    background-image: url("../images/background.png");
+    z-index: 1;
+    height: 600px;
+    max-height: 600px;
+    width: 100%;
+    background-size: 50% 50%;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.middle{
+    position: absolute;
+    font-size: 1.6em;
+    left: 30%;
+    top: 30%;
 }
