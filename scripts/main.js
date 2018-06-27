@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Get movies here...';
+var txt = 'Download Latest hollyood and Bollywood Movies Here..';
 var speed = 50;
 function typeWriter(){
     if (i < txt.length) {
