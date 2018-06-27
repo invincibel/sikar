@@ -60,3 +60,72 @@ body{
     left: 20%;
     top: 30%;
 }
+#tex3{
+    margin-left: 35%;
+}
+.col1{
+    margin:3px;
+    min-height:300px;
+    background-color:silver;
+    background-image: url("../images/2.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+ 
+.col2{
+    margin:3px;
+    min-height:300px;
+    background-color:green;
+      background-image: url("../images/3.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+ 
+.col3{
+    margin:3px;
+    min-height:300px;
+    background-color:blue;
+      background-image: url("../images/4.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+ 
+.col4{
+    margin:3px;
+    min-height:300px;
+  background-image: url("../images/5.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;    background-color:red;
+}
+ 
+.col5{
+    margin:3px;
+    min-height:300px;
+  background-image: url("../images/6.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;    background-color:darkgreen;
+}
+ 
+.col6{
+    margin:3px;
+    min-height:300px;
+  background-image: url("../images/7.jpg"); 
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;    background-color:orange;
+}
+ 
+.col7{
+    margin:3px;
+    min-height:300px;
+  background-image: url("../images/8.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;    background-color:beige;
+}
+ 
