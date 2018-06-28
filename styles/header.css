@@ -42,15 +42,20 @@ body{
     padding-left: 20px;
     display: inherit;
 }
-.container{
-    background-image: url("../images/movies.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+.new{
+    
+    
+
+   
+    
+background-size: contain;
     position: relative;
     margin-top: 10px;
     height: 500px;
     max-height: 700px;
     width: 100%;
-    overflow-x: hidden;
-    background-attachment: fixed;
+  
+    
+     
+ 
 }

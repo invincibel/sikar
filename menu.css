@@ -1,0 +1,62 @@
+.menubar
+{
+    
+    background-color: darkgreen;
+        width:100%;
+       height:100px;
+    
+}
+
+
+
+
+.menubar ul
+{
+    
+    float:right;
+    padding:0px;
+    margin:0px;
+    
+}
+
+
+
+.menubar ul li
+{
+    
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    list-style: none;
+    line-height:100px;
+   
+    color:aliceblue;
+    
+    
+}
+
+
+
+.menubar ul li a
+{
+    
+    
+    color:aqua;
+    text-decoration: none;
+    vertical-align: middle; 
+     display:block;
+    height:100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.menubar ul li a:hover
+{
+    
+    
+    color:azure;
+    background-color: cadetblue;
+    
+    
+    
+}
