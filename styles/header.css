@@ -59,6 +59,7 @@ body{
     font-size: 1.6em;
     left: 20%;
     top: 30%;
+    z-index: -1;
 }
 #tex3{
     margin-left: 35%;
@@ -144,8 +145,19 @@ input[type=text]{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     width: 80%;
     background:black;
     z-index: 2;
     font-size: 1.5em;
+    color: white;
+}
+a{
+   color: white;
+    text-decoration: none;
+    display: block;
+    padding: 4px 6px;
+}
+a:hover{
+    background-color: grey;
 }
