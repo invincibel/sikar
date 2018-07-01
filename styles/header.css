@@ -128,4 +128,15 @@ body{
     background-repeat:   no-repeat;
     background-position: center center;    background-color:beige;
 }
- 
+form{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+input[type=text]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 2em;
+}

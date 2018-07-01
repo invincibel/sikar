@@ -1,7 +1,12 @@
 <?php
  include 'header.html';
 ?>
+
 <div id="main">
+    <form>
+<input type="text" size="30" onkeyup="showResult(this.value)" placeholder="Search">
+<div id="livesearch"></div>
+</form>
     <span class="middle" id="demo"></span>
 </div>
 <div id="content">
