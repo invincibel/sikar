@@ -47,8 +47,9 @@
       </div>
        
     </div>
-<div class="container">
+<div class="containe">
     <h2 class="text" id="centr">If your movie is not here tell us we will make it here for you soon.</h2>
+    <button class="button"><span>Hover </span></button>
 </div>
 <br><br>
 <script src="scripts/main.js"></script>
