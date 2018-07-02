@@ -54,12 +54,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-.middle{
+.mid{
     position: absolute;
     font-size: 1.6em;
-    left: 20%;
+     left: 20%;
     top: 30%;
     z-index: -1;
+    
 }
 #tex3{
     margin-left: 35%;
@@ -148,7 +149,7 @@ input[type=text]{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     width: 80%;
     background:black;
-    z-index: 2;
+    z-index: 200;
     font-size: 1.5em;
     color: white;
 }

@@ -7,7 +7,7 @@
 <input type="text" size="30" onkeyup="showResult(this.value)" placeholder="Search">
 <div id="livesearch"></div>
 </form>
-    <span class="middle" id="demo"></span>
+    <p class="mid" id="demo">Download Latest hollyood and Bollywood Movies Here..</p>
 </div>
 <div id="content">
     <h1 class="text" id="tex3">Get The latest movies here</h1>
