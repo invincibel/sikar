@@ -47,6 +47,9 @@
       </div>
        
     </div>
+<div class="container">
+    <h2 class="text" id="centr">If your movie is not here tell us we will make it here for you soon.</h2>
+</div>
 <br><br>
 <script src="scripts/main.js"></script>
 <?php
