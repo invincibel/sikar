@@ -47,11 +47,24 @@
       </div>
        
     </div>
-<div class="containe">
-    <h2 class="text" id="centr">If your movie is not here tell us we will make it here for you soon.</h2>
-    <button class="button"><span>Hover </span></button>
+<div id="this">
+<form method="post" action="push.php">
+  <div class="container">
+    <h2>If your movie is not here tell us we will make it here for you soon.</h2>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Movie Name.." name="movie" required>
+    <input type="email" placeholder="Email address" name="email" required>
+  
+      <input type="submit" value="Submit">
+    </div>
+    <div class="container">
+        
+    </div>
+</form>
 </div>
-<br><br>
+<br><br><br><br><br>
 <script src="scripts/main.js"></script>
 <?php
 include 'footer.html';

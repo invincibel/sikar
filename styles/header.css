@@ -35,7 +35,7 @@ body{
 }
 
 #lower{
-    
+    position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -161,44 +161,34 @@ input[type=text]{
 #livesearch a:hover{
     background-color: grey;
 }
-.button {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 .containe{
     display: inline-flex;
+}
+#this{
+    position: relative;
+}
+#this form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+}
+#this .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+#this input[type=text],input[type=submit],input[type=email] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#this input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#this input[type=submit]:hover {
+    opacity: 0.8;
 }
