@@ -1,6 +1,6 @@
-var cacheName = 'app-shell-cache-v1';
+var cacheName = 'app-shell-cache-v3';
 var fileToCache = [
-    '/',
+    '/sikar/',
     'index.php',
     'header.html',
     'footer.html',
