@@ -1,4 +1,12 @@
-
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js').then(function(registration){
+        console.log('ServiceWorker registration successful with scope: ',registration.scope);
+    }).catch(function(err){
+        console.log('registration failed: ',err);
+    });
+}else{
+    console.log('no service worker is found in this browser');
+}
 function showResult(str) {
   if (str.length==0) { 
     document.getElementById("livesearch").innerHTML="";
@@ -13,18 +21,10 @@ function showResult(str) {
   }
   xmlhttp.onreadystatechange=function() {
     if (this.readyState==4 && this.status==200) {
-      document.getElementById("livesearch").innerHTML=this.responseText;
+     console.log('sending request to server for:',str); document.getElementById("livesearch").innerHTML=this.responseText;
       document.getElementById("livesearch").style.border="1px solid #A5ACB2";
     }
   }
   xmlhttp.open("GET","livesearch.php?q="+str,true);
   xmlhttp.send();
-}
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
 }
