@@ -66,6 +66,9 @@
 </div>
 <br><br><br><br><br>
 <script src="scripts/main.js"></script>
+<noscript>
+    <h1>This WEBSITE cannot work without javascript</h1>
+</noscript>
 <?php
 include 'footer.html';
 ?>
