@@ -1,0 +1,14 @@
+{
+    "name":"sikar-a downloading site",
+    "short_name":"sikar",
+    "icons":[
+        {
+        "src": "images/logo.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }],
+    "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
